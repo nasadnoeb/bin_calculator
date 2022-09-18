@@ -30,7 +30,7 @@ int main(int argc, char* argv[]){
 	string str; INBIN bin; link1:
 	cout << ">>> "; getline(cin, str);
 	if(str == "exit"){ system("PAUSE"); goto link2; }
-	if(str == "help"){ cout << "help\texit\n"; goto link1; }
+	if(str == "help"){ cout << "\nhelp\texit\n" << endl; goto link1; }
 	bin.inbin(str); goto link1; link2:
 	return 0;
 }
